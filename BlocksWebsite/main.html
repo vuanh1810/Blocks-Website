@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">		
+    <title>Blocks</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>  
+	.carousel-inner img {
+		width: 100%;
+		height: 630px;
+	}
+	</style>
+	
+  </head>
+  <body>
+    <header>
+		<div class="nb container">
+		  <a href="#">Welcome</a>
+		  <a href="quiz.html">One Piece Quiz</a>
+		  <a href="g2.html">Puzzle</a>
+		  <div class="dd">
+			<button class="ddbtn">Quick Quiz 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dd-content">
+			  <a href="g3.html">Country Flag</a>
+			  <a href="g4.html">City</a>			  
+			</div>
+		  </div>
+		  <a href="login.html">Logout</a>		  
+		</div>		
+	</header>
+
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+	  <!-- Indicators -->
+	  <ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active"></li>
+		<li data-target="#demo" data-slide-to="1"></li>
+		<li data-target="#demo" data-slide-to="2"></li>
+		<li data-target="#demo" data-slide-to="3"></li>
+	  </ul>
+	  
+	  <!-- The slideshow -->
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <a href="quiz.html"><img  class="d-block w-100" src="./img/carouOp.jpg" alt="One Piece" width="550" height="350"></a>
+		</div>
+		<div class="carousel-item">
+		  <a href="g2.html"><img  class="d-block w-100" src="./img/carouPz.jpg" alt="Puzzle" width="550" height="350"></a>
+		</div>
+		<div class="carousel-item">
+		  <a href="g3.html"><img class="d-block w-100" src="./img/carouFl.jpg" alt="Country Flag" width="550" height="350"></a>
+		</div>
+		<div class="carousel-item">
+		  <a href="g4.html"><img class="d-block w-100" src="./img/carouCity.jpg" alt="City" width="550" height="350"></a>
+		</div>
+	  </div>
+	  
+	  <!-- Left and right controls -->
+	  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	  </a>
+	  <a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	  </a>
+	</div>
+
+    <footer>
+	  <div class="container">
+		  <p>Copyright &copy;</p>
+	  </div>
+	</footer>
+
+  </body>
+</html>
